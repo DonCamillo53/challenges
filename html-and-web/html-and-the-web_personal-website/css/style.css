@@ -2,15 +2,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: black;
   font-family: "Sofia Sans", sans-serif;
   color: white;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
 }
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 30px;
+  padding: 30px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 nav {
@@ -30,13 +39,17 @@ nav a {
 }
 
 .profile {
+  padding-top: 150px;
   width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: space-between;
 }
 
 .profile img {
-  width: 600px;
+  height: 70vh;
+  margin-left: 60px;
+  align-items: center;
 }
 
 .visual-blocks {
@@ -74,4 +87,16 @@ nav a {
   padding-right: 10px;
   background-color: rgb(200, 200, 200);
   color: black;
+}
+
+.links {
+  background-color: rgb(200, 200, 200);
+  height: 100vh;
+}
+
+.contact {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 50px;
 }
