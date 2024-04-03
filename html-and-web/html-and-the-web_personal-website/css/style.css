@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: "Sofia Sans", sans-serif;
+  color: white;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+nav {
+  margin-right: 20px;
+}
+nav a {
+  margin: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.logo {
+  width: 200px;
+}
+
+.profile {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile img {
+  width: 600px;
+}
+
+.visual-blocks {
+  display: block;
+  width: 40%;
+}
+.skills {
+  margin-bottom: 30px;
+}
+
+.skills p {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 50px;
+  display: inline-flex;
+  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(200, 200, 200);
+  color: black;
+}
+.friends p {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 50px;
+  display: inline-flex;
+  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(200, 200, 200);
+  color: black;
+}

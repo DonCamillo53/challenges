@@ -1,47 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Website</title>
+    <title>Harry Potter</title>
   </head>
   <body>
     <header>
-      <img id="logo" src="images/Harry_Potter_wordmark.svg" alt="Harry Potter Logo">
+      <img
+        class="logo"
+        src="images/Harry_Potter_wordmark.svg"
+        alt="Harry Potter Logo"
+      />
       <nav>
-        <a href="#contact"> Contact</a>
-        <a href="#biography">Biography</a>
+        <a href="#">Contact</a>
+        <a href="#">Biography</a>
       </nav>
     </header>
     <main>
-        <section id="picture">
-      <img
-        src="https://images.squarespace-cdn.com/content/v1/59832a72f5e231540388c883/1554148480957-OXA6O1ZAPIVVYYBKQGDW/giphy-5.gif?format=2500w"
-        alt="Portrait of old man with long hair and beard"
-        name="profile-pic"
-      />
-      <label for="profile-pic">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio sequi,
-        ducimus quas voluptatibus nesciunt hic amet fuga aut iste
-        laudantium.</label
-    </section>
-   <aside>
-    <h2>Hobbies</h2>
-    <ul>
-        <li>Art</li>
-        <li>Music</li>
-        <li>Culture</li>
-        <li>Books</li>
-        <li>Coding</li>
-    </ul>
-    <h2>Languages</h2>
-    <ul>
-        <li>German</li>
-        <li>English</li>
-        <li>French</li>
-    </ul>
-   </aside>
+      <section class="profile">
+        <img
+          src="https://image.stern.de/34489568/t/NB/v1/w1440/r1.7778/-/daniel-radcliffe-harry-potter.jpg"
+          alt="Harry flying"
+        />
+        <aside class="visual-blocks">
+          <div class="skills">
+            <h2>Skills</h2>
+            <p>Flying</p>
+            <p>Magic</p>
+            <p>Courage</p>
+            <p>Loyalty</p>
+            <p>Potions</p>
+            <p>Riddle solving</p>
+            <p>+</p>
+          </div>
+
+          <div class="friends">
+            <h2>Friends</h2>
+            <p>Hermione Granger</p>
+            <p>Albus Dumbledore</p>
+            <p>Ron Weasley</p>
+            <p>Dobby</p>
+            <p>Rubeus Hagrid</p>
+            <p>Luna Lovegood</p>
+            <p>+</p>
+          </div>
+        </aside>
+      </section>
+      <section class="links">
+        <div class="contact">
+          <p type="Phone">Phone: 0151532232433</p>
+          <p type="E-Mail">E-Mail: Harry@potter.com</p>
+        </div>
+        <div class="social">
+          <div id="github">
+            <img name="github" src="#" alt="GitHub Logo" />
+            <label for="github">GitHub</label>
+          </div>
+          <div id="facebook">
+            <img name="facebook" src="#" alt="Facebook Logo" />
+            <label for="facebook">Facebook</label>
+          </div>
+          <div id="instagram">
+            <img name="instagram" src="#" alt="Instagram Logo" />
+            <label for="instagram">Instagram</label>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
