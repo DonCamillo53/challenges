@@ -1,0 +1,68 @@
+/* Please scroll down to the start of your exercise! */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+section {
+  background-color: lemonchiffon;
+  display: grid;
+  place-items: center;
+}
+
+.skyblue {
+  background-color: skyblue;
+}
+
+button {
+  background-color: white;
+  padding: 8px 25px;
+}
+
+/* Your exercise starts here */
+
+/* Add your CSS styles below this line. Feel free to replace the comments with your code. Make sure not to put your code into the comments, because then nothing will happen. */
+
+.button1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 15 20;
+}
+
+.button2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 50px;
+  border-radius: 50px;
+  border: none;
+  background-color: moccasin;
+}
+
+.button3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.button4 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 15 20;
+}
+
+.button4:hover {
+  box-shadow: 10px 10px black;
+  transition: 0.7s;
+}
+
+/* Feel free to play around with other properties, as well. */
