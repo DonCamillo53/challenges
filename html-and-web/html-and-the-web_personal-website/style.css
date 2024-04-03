@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: poppins;
+}
+
+#logo {
+  width: 200px;
+  padding: 15px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  justify-content: space-between;
+  margin: 15px;
+}
+img {
+  width: 100vw;
+}
