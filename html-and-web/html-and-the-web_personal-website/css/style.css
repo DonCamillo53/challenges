@@ -26,6 +26,7 @@ nav a {
 
 .logo {
   width: 200px;
+  cursor: pointer;
 }
 
 .profile {
@@ -57,6 +58,10 @@ nav a {
   padding-right: 10px;
   background-color: rgb(200, 200, 200);
   color: black;
+}
+.plus:hover {
+  background-color: white;
+  cursor: pointer;
 }
 .friends p {
   font-weight: 200;
