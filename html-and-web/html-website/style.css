@@ -18,6 +18,10 @@ header a {
   font-size: 30px;
   text-transform: uppercase;
 }
+
+header a:hover {
+  text-decoration: line-through;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -39,6 +43,11 @@ header {
   color: white;
   position: absolute;
   top: 400px;
-  left: -55px;
+  left: -100 px;
   line-height: 10px;
+}
+
+.about {
+  background-color: white;
+  height: 100vh;
 }
