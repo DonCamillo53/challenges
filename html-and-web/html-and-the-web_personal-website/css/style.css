@@ -44,6 +44,7 @@ nav a {
   height: 100vh;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .profile img {
@@ -55,6 +56,7 @@ nav a {
 .visual-blocks {
   display: block;
   width: 40%;
+  flex-wrap: wrap;
 }
 .skills {
   margin-bottom: 30px;
