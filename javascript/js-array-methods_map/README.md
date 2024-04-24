@@ -1,26 +1,22 @@
-# `while` loop
+# Array Methods: `map`
 
-In contrast to for loops, a `while` loop does not need to know how many times it will run in advance. It will run if a condition is met, and will stop otherwise.
-
-Let's create a couple of random numbers and stop if they grow too big!
+Here are some exercises to recap the array method `map`. Let's dive directly into it!
 
 ## Task
 
-Looking at the `./index.js`, there are two variables:
+In the `./index.js` file, there is a `cards` array with three objects.
 
-- `number`: a random number, set in each iteration of the while loop
-- `count`: the number of iterations, increased by 1 everytime the while loop runs
+Below this array, you will find a couple of variables (e.g. `lowerCaseAnswers`). They all are initialized with `null`.
 
-Create a `while` loop that
+And now it's your turn: delete the value `null` and write code such that the variables have a value corresponding to their name. Use `map` to achieve this goal.
 
-- runs if `number` is less or equal to 0.9,
-- increments `count` by 1 in each iteration
-- logs `number` to the console
-- sets `number` to a random number; you can use `Math.random()` here.
+You will find some hints as comments.
 
-If you're done, test your loop by refreshing the browser several times and watching the console!
+Switch to the `./index.js` file and map / filtersome recipes!
 
-Please switch to the `./index.js` file and be random!
+## Notes
+
+- If you want to check whether you solved the tasks correctly, run the test following the steps described on "Local Development".
 
 ## Development
 
