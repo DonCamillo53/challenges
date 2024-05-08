@@ -1,0 +1,26 @@
+ul {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 40px;
+}
+
+li {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+}
+
+li p {
+  background-color: var(--color-nemo);
+  padding: 0 10px;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  font-weight: 400;
+}

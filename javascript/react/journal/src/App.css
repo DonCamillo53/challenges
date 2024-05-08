@@ -1,9 +1,12 @@
 @import url(Header.css);
 @import url(MainSection.css);
 @import url(EntryForm.css);
+@import url(TabBar.css);
+@import url(Entries.css);
+@import url(EntryList.css);
 
 * {
-  marigin: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -36,4 +39,7 @@ h2 {
   font-weight: 400;
   color: var(--color-granite);
   margin: 2rem 0;
+}
+h3 {
+  font-size: 1rem;
 }
