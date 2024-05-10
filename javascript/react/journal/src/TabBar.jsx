@@ -1,8 +1,9 @@
+import { entries } from "./userEntries";
 export function TabBar() {
   return (
-    <ul>
+    <ul className="tab-bar">
       <li>
-        All Entries <p className="entry-counter">3</p>
+        Entries <p className="entry-counter">{entries.length}</p>
       </li>
       <li>
         Favorites <p className="entry-counter">3</p>

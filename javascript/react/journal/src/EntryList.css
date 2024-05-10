@@ -1,9 +1,9 @@
 .headline-container {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
-  gap: 20px;
+  align-items: start;
   margin-bottom: 2rem;
+  gap: 40px;
 }
 
 article p {
@@ -13,4 +13,12 @@ article p {
 article {
   padding-bottom: 2rem;
   border-bottom: solid 1px var(--color-water-10);
+  margin-bottom: 3rem;
+}
+.entry-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  max-width: 655px;
+  align-self: center;
 }

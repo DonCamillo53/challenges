@@ -5,8 +5,6 @@ export function Entries() {
     <>
       <TabBar />
       <Entry />
-      <Entry />
-      <Entry />
     </>
   );
 }

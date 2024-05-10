@@ -1,6 +1,9 @@
 form {
   display: flex;
   flex-direction: column;
+  max-width: 655px;
+  min-width: 300px;
+  align-self: center;
 }
 label {
   font-size: 0.7rem;
@@ -25,7 +28,6 @@ textarea {
 }
 
 button {
-  width: 30%;
   padding: 1rem;
   background-color: var(--color-nemo);
   color: white;
