@@ -1,9 +1,9 @@
-@import url(Header.css);
-@import url(MainSection.css);
-@import url(EntryForm.css);
-@import url(TabBar.css);
-@import url(Entries.css);
-@import url(EntryList.css);
+@import url(./components/Header.css);
+@import url(./components/MainSection.css);
+@import url(./components/EntryForm.css);
+@import url(./components/TabBar.css);
+@import url(./components/Entries.css);
+@import url(./components/EntryList.css);
 
 * {
   margin: 0;
